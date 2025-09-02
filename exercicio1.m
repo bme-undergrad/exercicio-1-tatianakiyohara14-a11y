@@ -28,7 +28,6 @@ for ii = 1:length(t)-1
   t(ii+1) = t(ii) - func(t(ii))/func_d(t(ii))
 endfor
 
-disp('O tempo para que v seja 1m/s é:')
 t(ii)
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%
