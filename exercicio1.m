@@ -12,7 +12,7 @@ imax = 20;
 
 % digite seu codigo aqui
 
-t = zeros(20,1)
+t = zeros(imax,1)
 t(1) = x0
 t
 erro = zeros(length(t),1)
