@@ -1,5 +1,3 @@
-clear all
-clc
 
 function t = exercicio1(func,func_d,x0)
 
