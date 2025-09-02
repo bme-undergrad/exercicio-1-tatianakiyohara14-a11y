@@ -1,3 +1,6 @@
+clear all
+clc
+
 function t = exercicio1(func,func_d,x0)
 
 % nao alterar: inicio
@@ -11,6 +14,7 @@ imax = 20;
 
 t = zeros(20,1)
 t(1) = x0
+t
 erro = zeros(length(t),1)
 
 for ii = 1:length(t)-1
