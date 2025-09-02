@@ -14,8 +14,6 @@ imax = 20;
 
 t = zeros(imax,1)
 t(1) = x0
-t
-erro = zeros(length(t),1)
 
 for ii = 1:length(t)-1
   ii
@@ -29,7 +27,7 @@ for ii = 1:length(t)-1
 endfor
 
 disp('O valor é: ')
-t(ii)
+t = t(ii)
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%
 
